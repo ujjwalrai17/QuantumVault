@@ -1,41 +1,41 @@
-# 🔐 QuantumVault - Bank Management Backend
+<h1 align="center">🔐 QuantumVault</h1>
+<p align="center">
+  <b>Bank Management Backend built with Spring Boot, JPA, Hibernate & MySQL</b>  
+</p>
 
-QuantumVault is a **Spring Boot powered banking management system** that provides secure and efficient APIs for handling **Customers, Accounts, and Transactions**.  
-Built with **Spring Boot, JPA, Hibernate, and MySQL**, this project demonstrates robust backend design for a modern banking application.  
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-blue" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-3-brightgreen" />
+  <img src="https://img.shields.io/badge/MySQL-Database-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-red" />
+  <img src="https://img.shields.io/github/stars/ujjwalrai17/QuantumVault?style=social" />
+</p>
 
 ---
 
 ## ✨ Features
-- 👥 **Customer Management**  
-  Create, update, view, and delete customers.  
-
-- 🏦 **Account Management**  
-  - Open new accounts for customers.  
-  - Retrieve account details.  
-  - Deposit & withdraw money.  
-  - Delete accounts.  
-
-- 💳 **Transaction Management**  
-  - Deposit money into an account.  
-  - Withdraw money from an account.  
-  - Transfer funds between accounts.  
-  - View all transactions for a specific account.  
+✅ **Customer Management** → Create, update, view, and delete customers  
+✅ **Account Management** → Open, view, deposit, withdraw & delete accounts  
+✅ **Transaction Management** → Deposit, withdraw, transfer & track history  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Java 17**
-- **Spring Boot 3**
-- **Spring Data JPA & Hibernate**
-- **MySQL Database**
-- **Lombok**
-- **Maven**
+| Layer | Technology |
+|-------|-------------|
+| Language | **Java 17** |
+| Framework | **Spring Boot 3** |
+| Database | **MySQL** |
+| ORM | **Hibernate + JPA** |
+| Tools | **Maven, Lombok** |
 
 ---
 
 ## ⚙️ Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/ujjwalrai17/QuantumVault.git
+cd QuantumVault
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ujjwalrai17/QuantumVault.git
-   cd QuantumVault
+# Build & run
+mvn spring-boot:run
