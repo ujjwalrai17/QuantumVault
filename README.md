@@ -1,37 +1,49 @@
-<h1 align="center">🔐 QuantumVault</h1>
 <p align="center">
-  <b>Bank Management Backend built with Spring Boot, JPA, Hibernate & MySQL</b>  
+  <img src="https://img.shields.io/badge/QuantumVault-🔐-blueviolet?style=for-the-badge" alt="QuantumVault Logo"/>
+</p>
+
+<h1 align="center">✨ QuantumVault - Bank Management Backend ✨</h1>
+<p align="center">
+  Secure • Scalable • Modern Banking API  
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17-blue" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-3-brightgreen" />
-  <img src="https://img.shields.io/badge/MySQL-Database-orange" />
+  <img src="https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/SpringBoot-3-6DB33F?logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-red" />
   <img src="https://img.shields.io/github/stars/ujjwalrai17/QuantumVault?style=social" />
 </p>
 
 ---
 
-## ✨ Features
-✅ **Customer Management** → Create, update, view, and delete customers  
-✅ **Account Management** → Open, view, deposit, withdraw & delete accounts  
-✅ **Transaction Management** → Deposit, withdraw, transfer & track history  
+## 🌟 Why QuantumVault?
+> 💡 *A backend system designed to mimic a **real-world banking application**, with clean architecture, robust API endpoints, and secure transaction management.*  
+
+---
+
+## 🚀 Features
+- 👥 **Customer Management** – Create, view, update, delete customers  
+- 🏦 **Account Handling** – Open accounts, deposit, withdraw, close accounts  
+- 💳 **Transactions** – Deposit, withdraw, transfer, and track transaction history  
+- 📊 **Relational Mapping** – Customers ↔ Accounts ↔ Transactions  
 
 ---
 
 ## 🛠️ Tech Stack
-| Layer | Technology |
-|-------|-------------|
-| Language | **Java 17** |
-| Framework | **Spring Boot 3** |
-| Database | **MySQL** |
-| ORM | **Hibernate + JPA** |
-| Tools | **Maven, Lombok** |
+| 🔧 Layer | 🚀 Technology |
+|----------|---------------|
+| Language | ![Java](https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white) |
+| Framework | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-6DB33F?logo=springboot&logoColor=white) |
+| Database | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) |
+| ORM | Hibernate + Spring Data JPA |
+| Build Tool | Maven |
+| Utilities | Lombok |
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup & Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/ujjwalrai17/QuantumVault.git
